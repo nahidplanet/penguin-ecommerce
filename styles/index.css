@@ -31,7 +31,7 @@ font-family: 'Roboto', sans-serif; */
     color: var(--title-color-navy);
 }
 .mb900{
-    margin-bottom: 900px;
+    margin-bottom: 200px;
 }
 p{
 color: var(--paragraph-color);
