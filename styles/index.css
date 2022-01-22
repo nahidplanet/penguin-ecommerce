@@ -1,0 +1,38 @@
+/* google font  */
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Roboto', sans-serif; */
+
+:root {
+  --bebas-neue: "Bebas Neue", cursive;
+  --roboto: "Roboto", sans-serif;
+  --btn-color: linear-gradient(180deg, #a4bc46 0%, #85a019 100%);
+  --menu-color: #3c3c3c;
+  --title-color-yellow: #fabe4c;
+  --title-color-navy: #363958;
+  --paragraph-color: #3e3e3e;
+}
+
+/* header section css  */
+.header-area nav ul li a {
+  color: var(--menu-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  font-family: var(--roboto);
+  text-transform: capitalize;
+}
+.ff-bebas{
+  font-family: var(--bebas-neue);
+}
+.yellow {
+  color: var(--title-color-yellow);
+}
+.navy{
+    color: var(--title-color-navy);
+}
+.mb900{
+    margin-bottom: 900px;
+}
+p{
+color: var(--paragraph-color);
+}
